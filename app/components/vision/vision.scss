@@ -1,0 +1,51 @@
+.quoteOuter{
+  blockquote{ margin: 0rem 0rem 4rem 0rem; font-size: 1.125rem; line-height: 1.67rem; letter-spacing: 0.5px; text-align:justify;
+    .attrib{ font-size: 0.875rem;  line-height: 3rem;  letter-spacing: 0.7px; font-family: Flama; padding: 10px 0; }
+  }
+}
+.retail-main {
+  .retail-slide{
+    .retail-slide-txt{
+      top: 4rem;
+      p{ font-family: "Flama Basic";  font-size: 1.125rem; line-height: 1.56rem;}
+    }
+  }
+}
+@media only screen and (max-width : 959px) {
+  .hero{ text-align:center;
+    img{width: 100%;}
+    .herotext{
+      clear: both;
+      display: inline-block;
+      float: none;
+      margin: -40px auto 0;
+      position: static;
+      width: 80%;
+      padding:20px; min-height:100px;
+    }
+  }
+  .retail-main { margin-bottom:11rem;
+    .retail-slide { text-align: center;
+      .retail-slide-txt{clear: both;
+        display: inline-block;
+        float: none;
+        margin: -195px auto 0;
+        position: relative;
+        width: 80%;
+        padding:0px; min-height:100px;}
+    }
+  }
+  .counter-retail {li{width: 100% !important;}}
+  .container {.row{margin:0;}
+  }
+  .quoteOuter {
+    blockquote{ padding-left: 1.25rem; padding-right: 1.25rem; margin-top:0; margin-bottom:4rem;}
+  }
+}
+
+@media only screen and (min-width : 960px) and (max-width : 1367px) {
+  .xtra-btm-mrgn {
+    margin-bottom: 22rem;
+  }
+  .container {.row{margin:0;}}
+}

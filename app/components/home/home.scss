@@ -1,0 +1,188 @@
+.home {
+  .modal {
+    background-color: #000000;
+    .modal-content{padding:0px;}
+  }
+  .modal-outer{ position:relative; float: left; top: 0;  margin-bottom: 4rem; width: 100%; min-height: 500px;}
+  .home-modal{ position: absolute; width: 23rem; height: 23rem; margin: -11.5rem 0 0 -11.5rem; background: rgba(0, 0, 0, 0.7); padding: 2rem 3.5rem; left: 50%; top: 50%; border-radius: 50%; color: #fff; text-transform: uppercase;
+    h1, h2, h3, h4, h5, h6{ margin:0;}
+    h1{ font-size: 1.1875rem; margin: 0 0 1rem 0;}
+    p{ font-size: 1rem; letter-spacing: 0.3125rem; font-family: Flama-Basic; margin: 0; color: #FFFFFF;}
+    h4{ font-family: 'Flama Basic'; font-size: 2rem; margin:1.5rem 0; letter-spacing: 0.3rem;}
+    h6{ font-family: 'Flama Basic'; font-size: 1.2rem; margin-bottom: 1rem; letter-spacing: 0.4rem;}
+
+
+   }
+  .btn{font-size: 0.6875rem; margin-top: 0;}
+  .content-container {margin: 0px 64px !important;}
+  blockquote{ margin: 0rem 7rem 5.625rem 0rem; font-size: 1.125rem; line-height: 1.67rem; letter-spacing: 0.5px;
+    .attrib{ font-size: 0.875rem;  line-height: 3rem;  letter-spacing: 0.7px; font-family: Flama; padding: 10px 0; }
+  }
+  img.responsive-img{ width:100%;}
+  .article-summary .category{ font-size: 0.75rem; letter-spacing: 3px;}
+  .article-summary .cl-vision .card-title{ margin-top: 5.3125rem;}
+  .article-summary .card-title{
+    margin-bottom: 1rem;
+    line-height: 2rem;
+    font-size: 1.75rem;
+    font-family: 'Flama SemiCondensed',sans-serif;
+    font-weight: 500;
+    color: #50525c;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+  }
+  .article-summary h2 {
+    color: #50525c;
+  }
+  .article-summary .byline{ font-size: 0.6875rem; margin-bottom: 1.375rem; letter-spacing: 1.3px;}
+  .team-profile .article-summary .col.col-summary{ padding:0 0.75rem;}
+  .team-profile .article-summary .col.col-summary .category{  margin-bottom: 1.125rem;}
+  .article-summary .card-content{  padding: 30px 90px;}
+  .insta-section{
+    .Insta-icon{ float: left; width: 100%; padding: 15px; background: #FFFFFF; height: 4rem;}
+    .insta-user{
+      h4{ font-size:1rem; text-transform: none; font-family: Flama-Basic; font-weight: normal;
+        i{float: left;  font-size: 1.5rem;  margin-right:1rem;}
+      }
+    }
+    .instaIn{ padding: 0 !important; width: 100%;}
+  }
+  p.content { font-size: 1.125rem; margin: 0 0 2rem; line-height: 1.75rem; }
+ .content p{ font-size: 1.125rem; margin: 0 0 2rem; line-height: 1.75rem; }
+  .card-socialIcon{ margin: 2rem 0 0;
+    li{ padding: 0 0.4rem;}
+    a{ color: #50525c;}
+  }
+  .social-posts {
+    width: 960px;
+    margin: 0 auto;
+    .post{  display: inline-block;
+      vertical-align: top;}
+  }
+  .post .twitter, .post .facebook {
+    width: 315px;
+  }
+  .post .instagram  {
+    width:630px;
+  }
+
+}
+.btn-load{clear:both;
+  a{margin:6.750rem 0; color:#222328; font-size:1.494rem; clear:both; display:inline-block;}
+}
+.responsive-img{
+  float: left;
+}
+.live-modal {
+  position: relative;
+  top: -300px;
+  clear:both;
+
+  iframe {
+    width: 100%;
+    height: 351px;
+  }
+}
+@media only screen and (max-width :1367px){
+  .home{
+    .modal-outer {
+      width: auto;
+      min-height: 0;
+    }
+  }
+}
+@media only screen and (max-width :959px){
+  .home{
+    .modal-outer {
+      width: 100% !important;
+      min-height: 0 !important;
+    }
+    .home-modal {
+      height: 12rem;
+      padding: 6rem 1.1rem 0;
+      border: none;
+      border-radius: 0;
+      width: 100%;
+      left: 0;
+      height: 100%;
+      margin: 0;
+      top: 0;      
+    }
+    .article-summary .card-content { padding: 2rem; }
+    .article-summary .byline{ margin-bottom: 2rem;}
+    .article-summary{ .cl-vision {.card-title{ margin-top: 1rem;}}}
+    .content-container { margin: 50px 40px !important; }
+    .team-profile .content-container.article-summary { margin: 0 2.5rem !important;}
+    .insta-section .content-container.article-summary { margin: 0 2.5rem !important;}
+    .insta-section .article-summary .col{ padding: 0.5rem 0.75rem;}
+    .social-posts {
+      width: 100% !important;
+    }
+    .post{position:static !important;  width:100%; float:left;
+      .facebook,.twitter,.instagram{width:100%;}
+    }
+    .insta-section{.instaIn{width:100%;}}
+  }
+  .live-modal {
+    position: relative;
+    top: -100px;
+    iframe {
+      width: auto;
+      height: 100%;
+    }
+  }
+  #subscribe_news, #subscribe_thanks{left:-50px !important; bottom:-50px !important; max-height:417px;}
+  .social-posts {
+    width: 100% auto;
+  }
+  .post .twitter, .post .facebook {
+    width: auto;
+  }
+  .post .instagram  {
+    width: auto;
+  }
+
+}
+
+@media only screen and (max-width :640px) {
+  .home {
+    .home-modal {
+      h1 img {
+        width: 2rem;
+      }
+      p {
+        font-size: 0.5rem;
+        letter-spacing: 0.3125rem;
+      }
+      h4 {
+        font-size: 0.75rem;
+        letter-spacing: 0.3rem;
+        margin: 0.5rem 0;
+      }
+      h6 {
+        font-size: 0.75rem;
+        margin-bottom: 0.5rem;
+      }
+      h2 img {
+        width: 2rem;
+      }
+    }
+
+  }
+}
+@media only screen and (max-width :360px) {
+  .home {
+    .team-profile .content-container.article-summary { margin: 0rem !important;}
+  }
+}
+@media only screen and (max-width :960px) and (max-width :980px){
+.home{
+  .post {
+  position: static !important;
+  float: left;
+}
+  .social-posts{width:100%;
+  }
+}
+
+}

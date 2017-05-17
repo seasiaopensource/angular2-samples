@@ -1,0 +1,190 @@
+.contact {
+  h1 {
+    margin-top: 40px;
+  }
+  h3{
+    font-size: 1.6875rem;
+    margin: 2.685rem 0 2.375rem;
+    font-family: 'Flama SemiCondensed';
+  }
+  .address {
+    font-family: 'Flama Basic', sans-serif;
+    font-size: 0.875rem;
+    padding: 6.875rem 4.5rem;
+    letter-spacing: 0.4px;
+    .heading{
+      font-size: 1rem;
+      color: #242526;
+      margin-top: 1rem;
+    }
+    p{
+      font-size: 1rem;
+    }
+    tel{
+      font-size: 1rem;
+    }
+    a{
+      font-size: 1rem;
+      color: #747474;
+    }
+  }
+  .loc-outer{
+    position: relative;
+    .locIcon{ position: absolute;  left: 55.7%;  position: absolute;  top: 40.6%;}
+  }
+}
+
+.contact-form{
+  padding: 4.5rem 5.8rem !important;
+  h2{ font-size: 1.5rem; font-family: 'Flama SemiCondensed'; margin:0 0 1.4875rem 0;}
+  .row { margin-bottom: 0;  }
+  .col { padding: 0 0.3rem;  }
+  .input-field {
+    margin-top: 1.125rem;
+    input[type="text"], input[type="email"], input[type="password"], input[type="date"], textarea{
+      border-radius: 2px;
+      background-color: #e4e7ef;
+      font-size: 0.875rem;
+      border: none;
+      font-family: 'Flama Basic';
+      color: #242526;
+      padding: 1rem;
+      margin: 0;
+      height: auto;
+      box-sizing: border-box;
+    }
+    textarea{ height: 110px !important;}
+    input:focus:not([type]):not([readonly]),
+    input[type="date"]:focus:not([readonly]),
+    input[type="datetime-local"]:focus:not([readonly]),
+    input[type="datetime"]:focus:not([readonly]),
+    input[type="email"]:focus:not([readonly]),
+    input[type="number"]:focus:not([readonly]),
+    input[type="password"]:focus:not([readonly]),
+    input[type="search"]:focus:not([readonly]),
+    input[type="tel"]:focus:not([readonly]),
+    input[type="text"]:focus:not([readonly]),
+    input[type="time"]:focus:not([readonly]),
+    input[type="url"]:focus:not([readonly]),
+    textarea.materialize-textarea:focus:not([readonly]){ border: none !important; box-shadow: none !important;}
+
+    input.valid:not([type]),
+    input.valid:focus:not([type]),
+    input.valid[type="date"],
+    input.valid[type="date"]:focus,
+    input.valid[type="datetime-local"],
+    input.valid[type="datetime-local"]:focus,
+    input.valid[type="datetime"],
+    input.valid[type="datetime"]:focus,
+    input.valid[type="email"],
+    input.valid[type="email"]:focus,
+    input.valid[type="number"],
+    input.valid[type="number"]:focus,
+    input.valid[type="password"],
+    input.valid[type="password"]:focus,
+    input.valid[type="search"],
+    input.valid[type="search"]:focus,
+    input.valid[type="tel"],
+    input.valid[type="tel"]:focus,
+    input.valid[type="text"],
+    input.valid[type="text"]:focus,
+    input.valid[type="time"],
+    input.valid[type="time"]:focus,
+    input.valid[type="url"],
+    input.valid[type="url"]:focus,
+    textarea.materialize-textarea.valid,
+    textarea.materialize-textarea.valid:focus{ border: none !important; box-shadow: none !important;}
+
+    input.invalid:not([type]),
+    input.invalid:focus:not([type]),
+    input.invalid[type="date"],
+    input.invalid[type="date"]:focus,
+    input.invalid[type="datetime-local"],
+    input.invalid[type="datetime-local"]:focus,
+    input.invalid[type="datetime"],
+    input.invalid[type="datetime"]:focus,
+    input.invalid[type="email"],
+    input.invalid[type="email"]:focus,
+    input.invalid[type="number"],
+    input.invalid[type="number"]:focus,
+    input.invalid[type="password"],
+    input.invalid[type="password"]:focus,
+    input.invalid[type="search"],
+    input.invalid[type="search"]:focus,
+    input.invalid[type="tel"],
+    input.invalid[type="tel"]:focus,
+    input.invalid[type="text"],
+    input.invalid[type="text"]:focus,
+    input.invalid[type="time"],
+    input.invalid[type="time"]:focus,
+    input.invalid[type="url"],
+    input.invalid[type="url"]:focus,
+    textarea.materialize-textarea.invalid,
+    textarea.materialize-textarea.invalid:focus{ border: none !important; box-shadow: none !important;}
+
+    ::-webkit-input-placeholder {
+      color: #242526;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+      color: #242526;
+    }
+
+    ::-moz-placeholder {  /* Firefox 19+ */
+      color: #242526;
+    }
+
+    :-ms-input-placeholder {
+      color: #242526;
+    }
+  }
+  .btn{
+    border: 2px solid #e4e7ef;
+    box-shadow: none;
+    box-sizing: border-box;
+    line-height: 1rem;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+  }
+  .sumit-btn{
+    background-color: #fff;
+    width: 170px;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 17px;
+    color: #2a87b9;
+    margin: 0 1rem 0 0;
+    text-transform: uppercase;
+    outline: 0 none;
+  }
+  .reset-btn{
+    background-color: #fff;
+    width: 170px;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 17px;
+    color: #50525c;
+    margin: 0 1rem 0 0;
+    text-transform: uppercase;
+    outline: 0 none;
+  }
+}
+.address .heading{
+  font-size: 1rem !important; margin-top: 1rem;
+}
+.tel{ margin: 1rem 0;}
+.contact-social{
+  margin: 2.5rem 0;
+  a{
+    padding: 0.8rem;
+    font-size: 1rem !important;
+    color: #747474;
+  }
+  a:first-child{ padding-left: 0;}
+}
+@media only screen and (max-width :959px) {
+  .contact-form{
+    padding: 4.5rem 2.8rem !important;}
+}

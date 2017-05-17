@@ -1,0 +1,254 @@
+html {
+  height: 100%;
+  color: #50525C;
+}
+body {
+  background: url(/app/images/background.jpg) repeat-y center top;
+  background-size: cover;
+  font-family: 'Flama Basic', sans-serif;
+  font-size: 16px;
+  height: 100%;
+}
+.loading {
+  height: 100%;
+  width: 100%;
+  img {
+    margin: 0 auto;    
+  }
+}
+h1 {
+  font-family: 'Flama SemiCondensed', sans-serif;
+  font-weight: 500;
+  font-size: 3.25rem;
+  text-transform: uppercase;
+  color: #222328;
+}
+h2 {
+  font-family: 'Flama SemiCondensed', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #222328;
+}
+h3 {
+  font-family: 'Flama SemiCondensed', sans-serif;
+  font-weight: 500;
+  font-size: 1.675rem;
+  text-transform: uppercase;
+  color: #222328;
+}
+h4 {
+  font-family: 'Flama Medium', sans-serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+h5 {
+  font-family: 'Flama Semibold', sans-serif;
+  font-size: 0.5625rem;
+  text-transform: uppercase;
+}
+h6 {
+  font-family: 'Flama Semibold', sans-serif;
+  font-size: 0.5625rem;
+  text-transform: uppercase;
+}
+p {
+  font-family: 'Flama Basic', sans-serif;
+  font-size: 1.25rem;
+  color: #50525c;
+}
+strong {
+  font-weight: normal;
+  font-family: 'Flama Medium';
+}
+.btn, .btn-large {
+  border-radius: 17px;
+  min-width: 170px;
+  margin-top: 1rem;
+}
+.highlight {
+  font-family: Times, serif;
+  font-style: italic;
+  font-size: 0.625rem;
+}
+
+.article-summary .col {
+  padding: 0;
+}
+.article-summary .card-content {
+  padding: 30px 90px 0;
+}
+.article-summary .card-title {
+  margin-top: 4rem;
+  text-transform: uppercase;
+}
+.article-summary .category {
+  text-transform: uppercase;
+}
+.article-summary .byline {
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+p.content {
+  margin: 1.5rem 0;
+  font-size: 1.25rem;
+}
+
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.btn {
+  box-shadow: 0 1px 0 1px #f5f5f5;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1;
+}
+a {
+  outline: 0 none;
+}
+section{
+  display: inline-block;
+}
+.owl-theme{.owl-dots{ .owl-dot.active{ span{background:#49a2d1 !important;}}}}
+/* Footer */
+footer.page-footer { background-color:#007ac0;}
+/* Footer */
+@media only screen and (min-width : 960px) {
+  .content-container {
+    margin: auto 64px !important;
+  }
+  .main-menu {
+    margin-left: 300px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .main-menu li {
+    min-width: 120px;
+  }
+  .main-menu li a {
+    margin: 0 30px;
+    height: 80px;
+    border-bottom: 3px solid transparent;
+    transition: .3s ease-out;
+    letter-spacing: 0.4em;
+  }
+  .main-menu li a.active, .main-menu li a:hover {
+    border-bottom: 3px solid #039be5;
+    background-color: transparent;
+  }
+  .side-menu, .side-menu ul,
+  .side-menu li,
+  .side-menu li a,
+  .side-menu li a i{
+    height: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+  }
+  .side-menu li a{border-bottom: 3px solid transparent;
+    &:hover{border-bottom: 3px solid #039be5; background-color: transparent;}
+  }
+  #slide-out{transform: none !important; }
+  ul#nav-side-social{ width:100%;
+    li{
+      a{
+        i{height: auto;}
+      }
+    }
+  }
+}
+
+blockquote {
+  font-family: Times, serif;
+  margin: 25px 20%;
+  font-style: italic;
+  font-size: 1.5rem;
+  border: none;
+  background: url(/app/images/quotemarks.png) no-repeat right bottom;
+}
+blockquote .attrib {
+  font-family: "Flama Medium";
+  font-size: 1rem;
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+.team-profile{
+  .col.s6{
+    padding:0 0.75rem !important;
+  }
+  .card-content.col.s12{
+    padding:20px 46px;
+  }
+  .article-summary .card-title{
+    margin-top: 0;
+  }
+  .article-summary .byline{
+    margin-bottom: 1rem;
+  }
+}
+.insta-section{ width: 100%;
+  .article-summary .col{
+    padding:0 0.75rem;
+  }
+  .red-insta{
+    background-color: #ff4f40;
+    padding: 2rem;
+    width: 100%;
+    color:#fff;
+    font-size:1rem;
+  }
+  .blue-insta{
+    background-color: #20cdfa;
+    padding: 2rem;
+    width: 100%;
+    color:#fff;
+    font-size:1rem;
+  }
+}
+.insta-user{
+  width:100%;
+  background-color: #fff;
+  display: inline-block;
+  padding: 1rem;
+  h4{
+    font-size: 1.25rem;
+    margin: 0;
+    font-family: 'Flama Basic',sans-serif;
+    color: gray;
+  }
+  h6{
+    font-size: 0.80rem;
+    margin-top: 0.3rem;
+    font-family: 'Flama Basic',sans-serif;
+    font-weight: 300;
+    color: gray;
+  }
+}
+.waves-effect.waves-blue .waves-ripple {
+      background-color: #d7e6f1 !important;
+}
+@media only screen and (max-width:959px) {
+  section{
+    .content-container{
+      & > h3,& > .row > h3{padding:0 35px;}
+    }
+    .new-summary{
+    & > .row > h3{padding:0 15px;}
+    }
+  }
+}
